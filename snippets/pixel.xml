@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="pixel"
+           fetch="https://github.com/PixelExperience"
+           revision="eleven" />
+
+   <!-- Vendor repos -->
+   <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="pixel" />
+   <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="pixel" />
