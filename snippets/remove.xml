@@ -79,6 +79,7 @@
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/skia" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -143,5 +144,8 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/linkerconfig" />
+  <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/nfc" />
 
 </manifest>

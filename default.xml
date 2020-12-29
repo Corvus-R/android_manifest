@@ -839,5 +839,6 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/crvs.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/phh.xml" />
 
 </manifest>
