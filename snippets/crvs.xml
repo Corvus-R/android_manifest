@@ -7,7 +7,7 @@
   <!-- Gitlab remote -->
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
-		
+
 <remote name="corvus"
         fetch="https://github.com/Corvus-R/"
         review="review.corvusrom.com"
@@ -17,8 +17,8 @@
            fetch="https://github.com/CorvusRom-Devices"
            revision="11" />
 
-  <project path="bionic" name="android_bionic" remote="corvus" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" />
+  <project path="bionic" name="android_bionic" remote="corvus" revision="11-gsi" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="corvus" revision="11-gsi" />
   <project path="development" name="android_development" remote="corvus" />
   <project path="art" name="android_art" remote="corvus" />
 
@@ -41,20 +41,21 @@
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="corvus" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="corvus" />
-  <project path="external/selinux" name="android_external_selinux" remote="corvus" />
+  <project path="external/selinux" name="android_external_selinux" remote="corvus" revision="11-gsi" />
   <project path="external/zlib" name="android_external_zlib" remote="corvus" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="corvus" />
   <project path="external/libpng" name="android_external_libpng" remote="corvus" />
   <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="corvus" />
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="corvus" />
+  <project path="external/skia" name="android_external_skia" remote="corvus" revision="11-gsi" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="corvus" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="corvus" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="corvus" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="corvus" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="corvus" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="corvus" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="corvus" revision="11-gsi" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="corvus" revision="11-gsi" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="corvus" revision="11-gsi" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="corvus" revision="11-gsi" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="corvus" revision="11-gsi" />
 
   <!-- Device -->
   <project path="device/corvus/sepolicy" name="android_device_corvus_sepolicy" remote="corvus" />
@@ -104,13 +105,16 @@
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="corvus" revision="11-8150" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="corvus" />
+  <project path="system/core" name="android_system_core" remote="corvus" revision="11-gsi" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="corvus" />
-  <project path="system/vold" name="android_system_vold" remote="corvus" />
-  <project path="system/extras" name="android_system_extras" remote="corvus" />
-  <project path="system/bt" name="android_system_bt" remote="corvus" />
-  <project path="system/netd" name="android_system_netd" remote="corvus" />
+  <project path="system/vold" name="android_system_vold" remote="corvus" revision="11-gsi" />
+  <project path="system/extras" name="android_system_extras" remote="corvus" revision="11-gsi" />
+  <project path="system/bt" name="android_system_bt" remote="corvus" revision="11-gsi" />
+  <project path="system/netd" name="android_system_netd" remote="corvus" revision="11-gsi" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="corvus" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="corvus" revision="11-gsi" />
+  <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="corvus" revision="11-gsi" />
+  <project path="system/nfc" name="android_system_nfc" remote="corvus" revision="11-gsi" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="corvus" clone-depth="1" />
